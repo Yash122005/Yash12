@@ -8,35 +8,62 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Futuristic Dark Theme - Navy Base */
+    --background: 210 50% 7%;        /* Deep Navy #0a192f */
+    --foreground: 200 100% 90%;      /* Light blue-white */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 210 40% 12%;             /* Slightly lighter navy */
+    --card-foreground: 200 100% 90%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 210 40% 8%;
+    --popover-foreground: 200 100% 90%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Neon Blue Primary */
+    --primary: 194 100% 50%;         /* Electric Blue #00d4ff */
+    --primary-foreground: 210 50% 7%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Purple Secondary */
+    --secondary: 256 65% 70%;        /* Neon Purple #8b5cf6 */
+    --secondary-foreground: 210 50% 7%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 210 35% 15%;
+    --muted-foreground: 200 50% 65%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Glowing Accent */
+    --accent: 280 100% 70%;          /* Bright Purple */
+    --accent-foreground: 210 50% 7%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 200 100% 90%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --border: 210 30% 20%;
+    --input: 210 35% 15%;
+    --ring: 194 100% 50%;
 
-    --radius: 0.5rem;
+    --radius: 1rem;
+    
+    /* Custom Futuristic Variables */
+    --neon-blue: 194 100% 50%;       /* #00d4ff */
+    --neon-purple: 256 65% 70%;      /* #8b5cf6 */
+    --neon-cyan: 180 100% 50%;       /* #00ffff */
+    --navy-dark: 210 50% 7%;         /* #0a192f */
+    --navy-medium: 210 40% 12%;      /* Slightly lighter */
+    --navy-light: 210 30% 18%;       /* Card borders */
+    
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--neon-blue)), hsl(var(--neon-purple)));
+    --gradient-secondary: linear-gradient(45deg, hsl(var(--neon-purple)), hsl(var(--neon-cyan)));
+    --gradient-background: linear-gradient(180deg, hsl(var(--navy-dark)), hsl(var(--navy-medium)));
+    
+    /* Glows & Shadows */
+    --glow-blue: 0 0 20px hsl(var(--neon-blue) / 0.5);
+    --glow-purple: 0 0 20px hsl(var(--neon-purple) / 0.5);
+    --shadow-neon: 0 4px 15px hsl(var(--neon-blue) / 0.3);
+    --shadow-card: 0 8px 32px hsl(var(--navy-dark) / 0.8);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     --sidebar-background: 0 0% 98%;
 
@@ -56,41 +83,10 @@ All colors MUST be HSL.
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
-
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Dark mode uses same futuristic theme */
+    --background: 210 50% 7%;
+    --foreground: 200 100% 90%;
+    /* All other variables remain the same for consistency */
   }
 }
 
@@ -100,6 +96,118 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-poppins overflow-x-hidden;
+    background: var(--gradient-background);
+    scroll-behavior: smooth;
   }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
+@layer utilities {
+  /* Futuristic Text Styles */
+  .text-neon-blue { color: hsl(var(--neon-blue)); }
+  .text-neon-purple { color: hsl(var(--neon-purple)); }
+  .text-neon-cyan { color: hsl(var(--neon-cyan)); }
+  
+  /* Gradient Text */
+  .text-gradient-primary {
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  .text-gradient-secondary {
+    background: var(--gradient-secondary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  
+  /* Glowing Effects */
+  .glow-blue {
+    box-shadow: var(--glow-blue);
+    border: 1px solid hsl(var(--neon-blue) / 0.3);
+  }
+  
+  .glow-purple {
+    box-shadow: var(--glow-purple);
+    border: 1px solid hsl(var(--neon-purple) / 0.3);
+  }
+  
+  /* Animated Borders */
+  .border-animate {
+    background: linear-gradient(45deg, transparent, hsl(var(--neon-blue) / 0.5), transparent);
+    background-size: 200% 200%;
+    animation: borderFlow 3s ease-in-out infinite;
+  }
+  
+  /* Hover Transformations */
+  .hover-float {
+    transition: var(--transition-smooth);
+  }
+  
+  .hover-float:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-neon);
+  }
+  
+  /* Particle Background */
+  .particle-bg {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .particle-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+      radial-gradient(circle at 20% 80%, hsl(var(--neon-blue) / 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, hsl(var(--neon-purple) / 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 40% 40%, hsl(var(--neon-cyan) / 0.1) 0%, transparent 50%);
+    animation: particleFloat 6s ease-in-out infinite;
+  }
+}
+
+@keyframes borderFlow {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+@keyframes particleFloat {
+  0%, 100% { transform: translate(0, 0) rotate(0deg); }
+  33% { transform: translate(10px, -10px) rotate(2deg); }
+  66% { transform: translate(-5px, 5px) rotate(-1deg); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-20px); }
+}
+
+@keyframes slideInFromLeft {
+  0% { transform: translateX(-100%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes slideInFromRight {
+  0% { transform: translateX(100%); opacity: 0; }
+  100% { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes fadeInUp {
+  0% { transform: translateY(50px); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
 }
