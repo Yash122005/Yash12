@@ -57,16 +57,16 @@ export function Contact() {
     {
       name: "LinkedIn",
       icon: Linkedin,
-      href: "#",
+      href: "https://www.linkedin.com/in/yash-gupta-8a8594283/",
       color: "neon-purple",
       description: "Let's connect professionally"
     },
     {
       name: "Email",
       icon: Mail,
-      href: "mailto:yashgupta@example.com",
+      href: "mailto:yashvinodgupta6@gmail.com",
       color: "neon-cyan",
-      description: "yashgupta@example.com"
+      description: "yashvinodgupta6@gmail.com"
     }
   ];
 
@@ -183,7 +183,7 @@ export function Contact() {
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">Email</p>
-                      <p className="text-foreground font-medium">yashgupta@example.com</p>
+                      <p className="text-foreground font-medium">yashvinodgupta6@gmail.com</p>
                     </div>
                   </div>
                   

@@ -74,7 +74,9 @@ export function Hero() {
           </a>
           
           <a 
-            href="#" 
+            href="https://www.linkedin.com/in/yash-gupta-8a8594283/" 
+            target="_blank"
+            rel="noopener noreferrer"
             className="group relative p-3 rounded-full border border-secondary/30 hover:border-secondary transition-all duration-300 hover-float"
           >
             <Linkedin className="h-6 w-6 text-secondary group-hover:text-neon-purple transition-colors" />

@@ -10,8 +10,8 @@ export function Footer() {
 
   const socialLinks = [
     { icon: Github, href: "https://github.com/yash122005", label: "GitHub" },
-    { icon: Linkedin, href: "#", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:yashgupta@example.com", label: "Email" }
+    { icon: Linkedin, href: "https://www.linkedin.com/in/yash-gupta-8a8594283/", label: "LinkedIn" },
+    { icon: Mail, href: "mailto:yashvinodgupta6@gmail.com", label: "Email" }
   ];
 
   return (
@@ -62,7 +62,7 @@ export function Footer() {
               Get In Touch
             </h4>
             <div className="space-y-2 text-muted-foreground">
-              <p>yashgupta@example.com</p>
+              <p>yashvinodgupta6@gmail.com</p>
               <p>Ranchi, Jharkhand, India</p>
               <p className="text-sm">
                 <span className="text-neon-cyan">Birla Institute of Technology, Mesra</span>
