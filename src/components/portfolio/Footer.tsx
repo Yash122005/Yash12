@@ -62,7 +62,7 @@ export function Footer() {
               Get In Touch
             </h4>
             <div className="space-y-2 text-muted-foreground">
-              <p>yashvinodgupta6@gmail.com</p>
+              <p className="text-sm break-all">yashvinodgupta6@gmail.com</p>
               <p>Ranchi, Jharkhand, India</p>
               <p className="text-sm">
                 <span className="text-neon-cyan">Birla Institute of Technology, Mesra</span>

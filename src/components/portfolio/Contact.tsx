@@ -183,7 +183,7 @@ export function Contact() {
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">Email</p>
-                      <p className="text-foreground font-medium">yashvinodgupta6@gmail.com</p>
+                      <p className="text-foreground font-medium text-sm sm:text-base break-all">yashvinodgupta6@gmail.com</p>
                     </div>
                   </div>
                   
