@@ -18,7 +18,7 @@ export function Projects() {
       description: "An interactive portfolio showcasing JavaScript skills with dynamic animations and modern ES6+ features.",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop&crop=center",
       tech: ["JavaScript", "GSAP", "CSS3", "DOM Manipulation"],
-      liveUrl: "#",
+      liveUrl: "https://yash122005.github.io/Yash-Gupta/",
       githubUrl: "#",
       category: "javascript"
     },
