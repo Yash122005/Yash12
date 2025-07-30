@@ -23,13 +23,13 @@ export function Projects() {
       category: "javascript"
     },
     {
-      title: "Bootstrap Portfolio",
-      description: "A fully responsive portfolio built with Bootstrap framework, featuring modern UI components and mobile-first design.",
-      image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop&crop=center",
-      tech: ["Bootstrap", "jQuery", "HTML5", "CSS3"],
+      title: "Currency Converter",
+      description: "A real-time currency converter built with React, featuring live exchange rates and intuitive user interface for seamless currency conversion.",
+      image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop&crop=center",
+      tech: ["React", "JavaScript", "API Integration", "CSS3"],
       liveUrl: "#",
       githubUrl: "#",
-      category: "bootstrap"
+      category: "javascript"
     },
     {
       title: "Arduino Smart Home",

@@ -9,6 +9,7 @@ export function Skills() {
         { name: "HTML5", icon: "🌐", level: 90 },
         { name: "CSS3", icon: "🎨", level: 85 },
         { name: "JavaScript", icon: "⚡", level: 80 },
+        { name: "React", icon: "⚛️", level: 80 },
         { name: "Tailwind CSS", icon: "💨", level: 85 },
         { name: "Bootstrap", icon: "🅱️", level: 80 },
         { name: "jQuery", icon: "📚", level: 75 }

@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Github, Linkedin, Mail } from "lucide-react";
+import { ArrowDown, Github, Linkedin, Mail, Code } from "lucide-react";
 
 export function Hero() {
   const scrollToProjects = () => {
@@ -89,6 +89,16 @@ export function Hero() {
           >
             <Mail className="h-6 w-6 text-accent group-hover:text-neon-cyan transition-colors" />
             <div className="absolute inset-0 rounded-full bg-accent/10 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+          </a>
+          
+          <a 
+            href="https://leetcode.com/u/Yash_Gupta1206/" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative p-3 rounded-full border border-primary/30 hover:border-primary transition-all duration-300 hover-float"
+          >
+            <Code className="h-6 w-6 text-primary group-hover:text-neon-blue transition-colors" />
+            <div className="absolute inset-0 rounded-full bg-primary/10 opacity-0 group-hover:opacity-100 transition-opacity glow-blue"></div>
           </a>
         </div>
       </div>
