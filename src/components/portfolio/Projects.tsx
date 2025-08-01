@@ -27,7 +27,7 @@ export function Projects() {
       description: "A real-time currency converter built with React, featuring live exchange rates and intuitive user interface for seamless currency conversion.",
       image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop&crop=center",
       tech: ["React", "JavaScript", "API Integration", "CSS3"],
-      liveUrl: "#",
+      liveUrl: "https://currency-convertor-tau-livid.vercel.app/",
       githubUrl: "#",
       category: "javascript"
     },
