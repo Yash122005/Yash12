@@ -28,7 +28,7 @@ export function Projects() {
       image: "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop&crop=center",
       tech: ["React", "JavaScript", "API Integration", "CSS3"],
       liveUrl: "https://currency-convertor-tau-livid.vercel.app/",
-      githubUrl: "#",
+      githubUrl: "https://github.com/Yash122005/Currency-Convertor/tree/main/src",
       category: "javascript"
     },
     {
