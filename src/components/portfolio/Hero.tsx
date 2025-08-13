@@ -16,7 +16,7 @@ export function Hero() {
       </div>
 
       <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        {/* Main Title */}
+        {/* Title */}
         <div className="animate-fade-in-up">
           <h1 className="font-orbitron text-6xl md:text-8xl font-black mb-6">
             <span className="text-gradient-primary block">YASH</span>
