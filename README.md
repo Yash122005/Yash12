@@ -1,73 +1,78 @@
-# Welcome to your Lovable project
+# 🌐 Yash Gupta — Portfolio Website
 
-## Project info
+![Portfolio Banner](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=vercel&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-**URL**: https://lovable.dev/projects/5e46e807-e964-4840-91a9-83f2b09ce8f1
+---
 
-## How can I edit this code?
+## 👋 About Me
 
-There are several ways of editing your application.
+Hi, I'm **Yash Gupta**, a passionate developer who loves building modern, interactive, and visually appealing web applications.  
+Currently exploring **frontend development** with **React, TypeScript, and TailwindCSS**, while continuously expanding into full-stack technologies.  
 
-**Use Lovable**
+✨ I enjoy crafting digital experiences that combine **clean UI design** with **smooth user interactions**.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/5e46e807-e964-4840-91a9-83f2b09ce8f1) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🛠️ Skills
 
-**Use your preferred IDE**
+Here are the tools and technologies I work with:
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Frontend:** React, TypeScript, JavaScript (ES6+), TailwindCSS, ShadCN/UI  
+- **Backend:** Node.js (basic), Express.js  
+- **Other Tools:** Git & GitHub, Vite, Figma, Vercel  
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=react,typescript,tailwind,js,html,css,git,github,vite,figma" />
+</p>
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🚀 Projects
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 🌟 [Personal Portfolio](https://yash12.vercel.app/)
+A modern and responsive developer portfolio showcasing my work, skills, and contact details.  
+**Tech Stack:** React, TypeScript, TailwindCSS, ShadCN/UI, Vite, Vercel  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### 🖊️ InkTalk (Hackathon Project)
+Transforms handwritten notes into audiobooks with **OCR + Text-to-Speech**, controlled via real-time voice commands.  
+**Tech Stack:** Python, OCR APIs, Speech Synthesis  
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### 🤖 Stair-Climbing Robot
+Designed and developed a robot capable of autonomously climbing stairs using modular parts and screw-jack mechanisms.  
+**Tech Stack:** ESP32 Microcontroller, Embedded Systems, Robotics  
 
-**Use GitHub Codespaces**
+---
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## 💼 Experience
 
-## What technologies are used for this project?
+- **Robotics Club (Embedded Systems Team)** — Working on microcontroller projects and IoT-based robotics (ESP32, Arduino).  
+- Hackathon participation — Built *InkTalk*, an AI-powered note-to-audio converter.  
 
-This project is built with:
+---
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## 📫 Contact
 
-## How can I deploy this project?
+- Portfolio: [yash12.vercel.app](https://yash12.vercel.app/)  
+- GitHub: [github.com/Yash122005](https://github.com/Yash122005)  
+- LinkedIn: [linkedIn](https://www.linkedin.com/in/yash-gupta-8a8594283/)
+- Email: **btech10430.24@bitmesra,ac.in**
 
-Simply open [Lovable](https://lovable.dev/projects/5e46e807-e964-4840-91a9-83f2b09ce8f1) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## ✨ Extras
 
-Yes, you can!
+Here’s a little snippet that represents me:
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```tsx
+const yash = {
+  role: "Frontend Developer",
+  skills: ["React", "TypeScript", "TailwindCSS", "Embedded Systems"],
+  hobbies: ["Robotics 🤖", "Hackathons 🚀", "Web Dev 💻"]
+};
