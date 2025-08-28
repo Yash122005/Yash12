@@ -37,23 +37,12 @@ A modern and responsive developer portfolio showcasing my work, skills, and cont
 **Tech Stack:** React, TypeScript, TailwindCSS, ShadCN/UI, Vite, Vercel  
 
 ---
-
-### 🖊️ InkTalk (Hackathon Project)
-Transforms handwritten notes into audiobooks with **OCR + Text-to-Speech**, controlled via real-time voice commands.  
-**Tech Stack:** Python, OCR APIs, Speech Synthesis  
-
----
-
-### 🤖 Stair-Climbing Robot
-Designed and developed a robot capable of autonomously climbing stairs using modular parts and screw-jack mechanisms.  
-**Tech Stack:** ESP32 Microcontroller, Embedded Systems, Robotics  
-
----
+### More will be coming
 
 ## 💼 Experience
 
-- **Robotics Club (Embedded Systems Team)** — Working on microcontroller projects and IoT-based robotics (ESP32, Arduino).  
-- Hackathon participation — Built *InkTalk*, an AI-powered note-to-audio converter.  
+- **Robolution** — Working on microcontroller projects and IoT-based robotics (ESP32, Arduino).  
+- **Value Education Cell** — Working as a web devloper coordinator.
 
 ---
 
