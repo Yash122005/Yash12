@@ -32,13 +32,13 @@ export function Projects() {
       category: "javascript"
     },
     {
-      title: "Arduino Smart Home",
-      description: "IoT-based smart home automation system using Arduino and various sensors for temperature, humidity, and motion detection.",
-      image: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?w=600&h=400&fit=crop&crop=center",
-      tech: ["Arduino IDE", "C++", "IoT", "Sensors"],
-      liveUrl: "#",
-      githubUrl: "#",
-      category: "hardware"
+      title: "Speech To Text Converter",
+      description: "A Speech-to-Text Converter Website is an online platform that converts spoken words into written text in real time using speech recognition technology",
+      image: "https://plus.unsplash.com/premium_photo-1681488183639-f38511a647ef?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8c3BlZWNoJTIwdG8lMjB0ZXh0fGVufDB8fDB8fHww",
+      tech: ["NPM package", "node", "JavaScript", "Express"],
+      liveUrl: "https://speech-to-text-gamma-beryl.vercel.app/",
+      githubUrl: "https://github.com/Yash122005/speech-to-text",
+      category: "software"
     }
   ];
 
