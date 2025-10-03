@@ -12,25 +12,27 @@ export function Skills() {
         { name: "React", icon: "⚛️", level: 80 },
         { name: "Tailwind CSS", icon: "💨", level: 85 },
         { name: "Bootstrap", icon: "🅱️", level: 80 },
-        { name: "jQuery", icon: "📚", level: 75 }
+        { name: "jQuery", icon: "📚", level: 75 },
+        { name: "GSAP", icon: "✨", level: 75 },
+        { name: "DOM", icon: "🌳", level: 80 }
       ]
     },
     {
-      title: "Development Tools",
+      title: "Backend Technologies",
       color: "neon-purple",
+      skills: [
+        { name: "Node.js", icon: "🚀", level: 70 },
+        { name: "Express.js", icon: "🪟", level: 70 },
+        { name: "Mongo DB", icon: "📅", level: 70 },
+        { name: "EJS", icon: "🔗", level: 85 }
+      ]
+    },
+    {
+      title: "Programming & Hardware tools",
+      color: "neon-cyan",
       skills: [
         { name: "Git", icon: "🔀", level: 85 },
         { name: "GitHub", icon: "🐙", level: 85 },
-        { name: "Express.js", icon: "🚀", level: 70 },
-        { name: "DOM", icon: "🌳", level: 80 },
-        { name: "Web Development", icon: "🌍", level: 85 },
-        { name: "GSAP", icon: "✨", level: 75 }
-      ]
-    },
-    {
-      title: "Programming & Hardware",
-      color: "neon-cyan",
-      skills: [
         { name: "C", icon: "⚙️", level: 80 },
         { name: "C++", icon: "🔧", level: 85 },
         { name: "Arduino IDE", icon: "🤖", level: 70 },
