@@ -33,7 +33,7 @@ export function About() {
                 My Journey
               </h3>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                I'm a passionate <span className="text-neon-blue font-semibold">Front-End Developer</span> currently pursuing 
+                I'm a passionate <span className="text-neon-blue font-semibold"> Full-stack web Developer</span> currently pursuing 
                 a Bachelor of Technology in <span className="text-neon-purple font-semibold">Electronics and Communication Engineering</span> 
                 at Birla Institute of Technology, Mesra, Ranchi.
               </p>
@@ -75,7 +75,7 @@ export function About() {
               <div className="space-y-2">
                 <h4 className="font-semibold text-lg text-foreground">Birla Institute of Technology, Mesra</h4>
                 <p className="text-neon-blue font-medium">Bachelor of Technology - Electronics and Communication Engineering</p>
-                <p className="text-muted-foreground">Currently in 1st year • Ranchi, India</p>
+                <p className="text-muted-foreground">Currently in 2nd year • Ranchi, India</p>
                 <p className="text-sm text-muted-foreground mt-3">
                   Building a strong foundation in electronics, programming, and problem-solving with a focus on C++ and modern web technologies.
                 </p>
