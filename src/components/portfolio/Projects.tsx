@@ -5,6 +5,15 @@ import { ExternalLink, Github, Eye } from "lucide-react";
 export function Projects() {
   const projects = [
     {
+      title: "Text-File-Manager",
+      description: "Text File Manager is a simple Node.js application built with Express and EJS that allows users to create, view, edit, and delete text files directly from the browser.",
+      image: "https://plus.unsplash.com/premium_photo-1677402408071-232d1c3c3787?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmlsZSUyMG1hbmFnZW1lbnR8ZW58MHx8MHx8fDA%3D",
+      tech: ["Node.js", "Express.js", "EJS (Embedded JavaScript)", "File System (fs module)"],
+      liveUrl: "https://text-file-manager.onrender.com/",
+      githubUrl: "https://github.com/Yash122005/Text-File-Manager",
+      category: "web"
+    },
+    {
       title: "Value Education Cell BIT",
       description: "A responsive website built for the Value Education Cell of BIT Mesra. Features modern design, smooth animations, and optimized performance.",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop&crop=top",
