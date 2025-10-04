@@ -5,6 +5,15 @@ import { ExternalLink, Github, Eye } from "lucide-react";
 export function Projects() {
   const projects = [
     {
+      title: "User-Management-app ",
+      description: "This is a simple web application built using Node.js, Express.js, and MongoDB that allows you to perform CRUD operations (Create, Read, Update, Delete) on user data. It serves as a foundational project to understand backend development and database interaction using the MERN stack (without React).",
+      image: "https://plus.unsplash.com/premium_photo-1720589103335-43589b70bd20?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fG1hbmFnZW1lbnQlMjBzb2Z0d2FyZXxlbnwwfHwwfHx8MA%3D%3D",
+      tech: ["Node.js", "Express.js", "EJS (Embedded JavaScript)", "MongoDB"],
+      liveUrl: "https://user-management-app-1-51sg.onrender.com/",
+      githubUrl: "https://github.com/Yash122005/user-management-app",
+      category: "web"
+    },
+    {
       title: "Text-File-Manager",
       description: "Text File Manager is a simple Node.js application built with Express and EJS that allows users to create, view, edit, and delete text files directly from the browser.",
       image: "https://plus.unsplash.com/premium_photo-1677402408071-232d1c3c3787?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmlsZSUyMG1hbmFnZW1lbnR8ZW58MHx8MHx8fDA%3D",
