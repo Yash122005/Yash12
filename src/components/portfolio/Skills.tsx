@@ -43,8 +43,9 @@ export function Skills() {
       title: "Design & Creative",
       color: "accent",
       skills: [
+        { name: "Figma", icon: "📲", level: 75 },
         { name: "Canva", icon: "🎨", level: 80 },
-        { name: "UI/UX Design", icon: "✏️", level: 75 },
+        { name: "UI/UX Design", icon: "✏️", level: 70 },
         { name: "Responsive Design", icon: "📱", level: 85 }
       ]
     }
