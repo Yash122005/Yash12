@@ -18,7 +18,7 @@ export function About() {
               <div className="absolute inset-0 bg-gradient-primary rounded-3xl blur-lg opacity-75 group-hover:opacity-100 transition-opacity"></div>
               <div className="relative bg-card rounded-3xl p-8 border border-primary/20 overflow-hidden">
                 <div className="aspect-square bg-gradient-secondary rounded-2xl flex items-center justify-center text-8xl font-orbitron font-black text-primary-foreground">
-                  <img src = "https://media.licdn.com/dms/image/v2/D5603AQGHlvPTk1ZPfg/profile-displayphoto-scale_400_400/B56Zn9RaT4I0Ak-/0/1760890825900?e=1764806400&v=beta&t=gAM0sI8_t8Q4CDJwJlDF4knJLfHyUjfKTz9PWrCD-eQ" />
+                  <img src = "https://media.licdn.com/dms/image/v2/D5603AQH_sl9R2dRVZw/profile-displayphoto-scale_400_400/B56ZryEJSCHQAg-/0/1764997768701?e=1766620800&v=beta&t=zKrAo_fEcM3g4H_zxks6jFgkhcOMGwgwwfJj7Oqan_g" />
                 </div>
                 <div className="absolute top-4 right-4 w-4 h-4 bg-neon-blue rounded-full animate-pulse"></div>
                 <div className="absolute bottom-4 left-4 w-3 h-3 bg-neon-purple rounded-full animate-pulse" style={{ animationDelay: '1s' }}></div>
