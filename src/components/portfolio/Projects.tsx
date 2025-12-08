@@ -35,6 +35,15 @@ export function Projects() {
       title: "JS Portfolio",
       description: "An interactive portfolio showcasing JavaScript skills with dynamic animations and modern ES6+ features.",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop&crop=center",
+      tech: ["React", "GSAP", "tailwind"],
+      liveUrl: "https://note-app-black-kappa.vercel.app/",
+      githubUrl: "https://github.com/Yash122005/Text-File-Manager",
+      category: "javascript"
+    },
+    {
+      title: "Note-App",
+      description: "A simple and fast Notes App that lets you create, edit, and delete notes with ease. Designed for quick thoughts, daily tasks, and personal reminders, it keeps your information organized and accessible anytime",
+      image: "https://images.unsplash.com/photo-1600783245891-f275a1575d93?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bm90ZXMlMjBhcHB8ZW58MHx8MHx8fDA%3D",
       tech: ["JavaScript", "GSAP", "CSS3", "DOM Manipulation"],
       liveUrl: "https://yash122005.github.io/Yash-Gupta/",
       githubUrl: "#",
