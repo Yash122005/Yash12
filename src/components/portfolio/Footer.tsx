@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowUp, Github, Linkedin, Mail, Heart, Code } from "lucide-react";
+import { ArrowUp, Github, Linkedin, Mail, Heart, Code, Instagram } from "lucide-react";
 
 export function Footer() {
   const scrollToTop = () => {
@@ -11,7 +11,10 @@ export function Footer() {
   const socialLinks = [
     { icon: Github, href: "https://github.com/yash122005", label: "GitHub" },
     { icon: Linkedin, href: "https://www.linkedin.com/in/yash-gupta-8a8594283/", label: "LinkedIn" },
-    { icon: Mail, href: "mailto:yashvinodgupta6@gmail.com", label: "Email" }
+    { icon: Instagram, href: "https://www.instagram.com/yashvinodgupta8?utm_source=qr&igsh=ZHV4bDFjZHVybmJu", label: "Instagram" },
+    { icon: Mail, href: "mailto:yashvinodgupta6@gmail.com", label: "Email" },
+    { icon: Code, href: "https://leetcode.com/u/Yash_Gupta1206/", label: "Code" },
+    
   ];
 
   return (
