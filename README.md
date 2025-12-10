@@ -61,7 +61,7 @@ Here’s a little snippet that represents me:
 
 ```tsx
 const yash = {
-  role: "Frontend Developer",
-  skills: ["React", "TypeScript", "TailwindCSS", "Embedded Systems"],
+  role: "Full-Stack Developer",
+  skills: ["React", "TypeScript", "TailwindCSS", "Embedded Systems","Mongo DB"],
   hobbies: ["Robotics 🤖", "Hackathons 🚀", "Web Dev 💻"]
 };
