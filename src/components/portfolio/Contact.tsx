@@ -257,12 +257,12 @@ export function Contact() {
               Whether you have a project in mind, need technical consultation, or just want to chat about technology, 
               I'm always excited to connect with fellow developers and innovators.
             </p>
-            <Button 
+            <a href = "https://wa.me/7607270504" 
               size="lg"
               className="bg-gradient-secondary hover:shadow-glow-purple transition-all duration-300 font-orbitron font-bold px-8 py-4"
             >
               Start a Conversation
-            </Button>
+            </a>
           </Card>
         </div>
       </div>
