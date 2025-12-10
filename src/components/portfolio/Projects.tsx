@@ -1,14 +1,18 @@
+import { useState } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ExternalLink, Github, Eye } from "lucide-react";
 
 export function Projects() {
+  // 1. Initialize State for the active filter (default is 'all')
+  const [activeCategory, setActiveCategory] = useState("all");
+
   const projects = [
     {
       title: "User-Management-app ",
-      description: "This is a simple web application built using Node.js, Express.js, and MongoDB that allows you to perform CRUD operations (Create, Read, Update, Delete) on user data. It serves as a foundational project to understand backend development and database interaction using the MERN stack (without React).",
+      description: "This is a simple web application built using Node.js, Express.js, and MongoDB that allows you to perform CRUD operations.",
       image: "https://plus.unsplash.com/premium_photo-1720589103335-43589b70bd20?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fG1hbmFnZW1lbnQlMjBzb2Z0d2FyZXxlbnwwfHwwfHx8MA%3D%3D",
-      tech: ["Node.js", "Express.js", "EJS (Embedded JavaScript)", "MongoDB"],
+      tech: ["Node.js", "Express.js", "EJS", "MongoDB"],
       liveUrl: "https://user-management-app-1-51sg.onrender.com/",
       githubUrl: "https://github.com/Yash122005/user-management-app",
       category: "web"
@@ -17,7 +21,7 @@ export function Projects() {
       title: "Text-File-Manager",
       description: "Text File Manager is a simple Node.js application built with Express and EJS that allows users to create, view, edit, and delete text files directly from the browser.",
       image: "https://plus.unsplash.com/premium_photo-1677402408071-232d1c3c3787?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8ZmlsZSUyMG1hbmFnZW1lbnR8ZW58MHx8MHx8fDA%3D",
-      tech: ["Node.js", "Express.js", "EJS (Embedded JavaScript)", "File System (fs module)"],
+      tech: ["Node.js", "Express.js", "EJS", "File System"],
       liveUrl: "https://text-file-manager.onrender.com/",
       githubUrl: "https://github.com/Yash122005/Text-File-Manager",
       category: "web"
@@ -42,7 +46,7 @@ export function Projects() {
     },
     {
       title: "Note-App",
-      description: "A simple and fast Notes App that lets you create, edit, and delete notes with ease. Designed for quick thoughts, daily tasks, and personal reminders, it keeps your information organized and accessible anytime",
+      description: "A simple and fast Notes App that lets you create, edit, and delete notes with ease. Designed for quick thoughts, daily tasks, and personal reminders.",
       image: "https://images.unsplash.com/photo-1600783245891-f275a1575d93?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8bm90ZXMlMjBhcHB8ZW58MHx8MHx8fDA%3D",
       tech: ["React", "GSAP", "tailwind"],
       liveUrl: "https://note-app-black-kappa.vercel.app/",
@@ -73,8 +77,13 @@ export function Projects() {
     { name: "All", value: "all", color: "neon-blue" },
     { name: "Web", value: "web", color: "neon-purple" },
     { name: "JavaScript", value: "javascript", color: "neon-cyan" },
-    { name: "Hardware", value: "hardware", color: "accent" }
+    { name: "Software", value: "software", color: "accent" } // Changed 'Hardware' to 'Software' to match your project data
   ];
+
+  // 2. Filter logic: If 'all', show everything; otherwise match category
+  const filteredProjects = projects.filter((project) => 
+    activeCategory === "all" ? true : project.category === activeCategory
+  );
 
   return (
     <section id="projects" className="py-20 px-4 relative">
@@ -91,15 +100,18 @@ export function Projects() {
 
         {/* Filter Buttons */}
         <div className="flex flex-wrap justify-center gap-4 mb-12">
-          {categories.map((category, index) => (
+          {categories.map((category) => (
             <Button
               key={category.value}
               variant="outline"
+              // 3. Add Click Handler
+              onClick={() => setActiveCategory(category.value)}
               className={`
                 border-${category.color}/50 text-${category.color} 
                 hover:bg-${category.color}/10 hover:border-${category.color}
                 transition-all duration-300 font-orbitron font-semibold
-                ${index === 0 ? 'bg-primary/10 border-primary' : ''}
+                // 4. Dynamic Active Class: Checks if this button matches the state
+                ${activeCategory === category.value ? 'bg-primary/10 border-primary shadow-[0_0_15px_rgba(0,0,255,0.3)]' : ''}
               `}
             >
               {category.name}
@@ -109,7 +121,8 @@ export function Projects() {
 
         {/* Projects Grid */}
         <div className="grid md:grid-cols-2 xl:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
+          {/* 5. Map through filteredProjects instead of original projects */}
+          {filteredProjects.map((project, index) => (
             <div 
               key={project.title}
               className="animate-fade-in-up group"
