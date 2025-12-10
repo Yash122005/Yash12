@@ -82,6 +82,15 @@ export function Hero() {
             <Linkedin className="h-6 w-6 text-secondary group-hover:text-neon-purple transition-colors" />
             <div className="absolute inset-0 rounded-full bg-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity glow-purple"></div>
           </a>
+           <a 
+            href="https://www.instagram.com/yashvinodgupta8?utm_source=qr&igsh=ZHV4bDFjZHVybmJu" 
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group relative p-3 rounded-full border border-secondary/30 hover:border-secondary transition-all duration-300 hover-float"
+          >
+            <Instagram className="h-6 w-6 text-secondary group-hover:text-neon-purple transition-colors" />
+            <div className="absolute inset-0 rounded-full bg-secondary/10 opacity-0 group-hover:opacity-100 transition-opacity glow-purple"></div>
+          </a>
           
           <a 
             href="#contact" 
