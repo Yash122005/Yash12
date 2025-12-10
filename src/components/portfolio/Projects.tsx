@@ -70,6 +70,15 @@ export function Projects() {
       liveUrl: "https://speech-to-text-gamma-beryl.vercel.app/",
       githubUrl: "https://github.com/Yash122005/speech-to-text",
       category: "software"
+    },
+     {
+      title: "Robolution UI + wireframe",
+      description: "Robolution UI/UX Design A futuristic user interface and wireframe concept designed for a robotics management platform.",
+      image: "https://plus.unsplash.com/premium_photo-1681380409766-792f2bbb3ffe?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cm9ib3RpY3MlMjB3ZWJzaXRlJTIwdWl8ZW58MHx8MHx8fDA%3D",
+      tech: ["Figma"],
+      liveUrl: "https://www.figma.com/design/mGYxiecUOQzlk32X4rCGuI/Untitled?node-id=0-1&t=a40wM1FQyxuxBz3n-1",
+      githubUrl: "https://www.figma.com/design/4tIyYJ5sBdPwFWDds55GhB/Robolution-wireframe-1?t=oLlWFsQWzbnA96qp-1",
+      category: "UI/UX"
     }
   ];
 
@@ -77,7 +86,8 @@ export function Projects() {
     { name: "All", value: "all", color: "neon-blue" },
     { name: "Web", value: "web", color: "neon-purple" },
     { name: "JavaScript", value: "javascript", color: "neon-cyan" },
-    { name: "Software", value: "software", color: "accent" } // Changed 'Hardware' to 'Software' to match your project data
+    { name: "Software", value: "software", color: "accent" },
+    { name: "UI/UX", value: "UI/UX", color: "neon-purple" }
   ];
 
   // 2. Filter logic: If 'all', show everything; otherwise match category
