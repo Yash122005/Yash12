@@ -5,6 +5,10 @@ export function Hero() {
   const scrollToProjects = () => {
     document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' });
   };
+  const handleResumeDownload = () => {
+  const resumeLink = "https://drive.google.com/file/d/1oA254pXBMYTogFm1ZYdSkf8RVTZFIWPi/view?usp=sharing"; 
+  window.open(resumeLink, "_blank");
+};
 
   return (
     <section className="min-h-screen relative particle-bg flex items-center justify-center overflow-hidden">
@@ -53,6 +57,7 @@ export function Hero() {
           </Button>
           
           <Button 
+            onClick={handleResumeDownload}
             variant="outline" 
             size="lg"
             className="border-primary/50 text-primary hover:bg-primary/10 hover:shadow-glow-blue transition-all duration-300 transform hover:scale-105 font-orbitron font-bold text-lg px-8 py-4"
