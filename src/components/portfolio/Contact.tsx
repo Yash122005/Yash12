@@ -193,7 +193,7 @@ export function Contact() {
                     </div>
                     <div>
                       <p className="text-sm text-muted-foreground">Phone</p>
-                      <p className="text-foreground font-medium">+91 XXXXX XXXXX</p>
+                      <p className="text-foreground font-medium">+91 7607270504</p>
                     </div>
                   </div>
                   
