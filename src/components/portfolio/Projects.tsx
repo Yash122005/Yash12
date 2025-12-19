@@ -9,6 +9,15 @@ export function Projects() {
 
   const projects = [
     {
+      title: "Value-Education-Cell-BITM ",
+      description: "Official website for Value Education Cell (VEC) and Vivekananda Study Circle (VSC) at Birla Institute of Technology, Mesra, Ranchi. Modern Design, Responsive, Multi-page Structure, SEO Optimized, Accessible",
+      image: "https://plus.unsplash.com/premium_photo-1720589103335-43589b70bd20?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fG1hbmFnZW1lbnQlMjBzb2Z0d2FyZXxlbnwwfHwwfHx8MA%3D%3D",
+      tech: ["Tailwind", "TypeScript", "React"],
+      liveUrl: "https://value-education-cell-bitm.vercel.app/",
+      githubUrl: "https://github.com/Yash122005/Value-Education-Cell---BITM",
+      category: "web"
+    },
+    {
       title: "User-Management-app ",
       description: "This is a simple web application built using Node.js, Express.js, and MongoDB that allows you to perform CRUD operations.",
       image: "https://plus.unsplash.com/premium_photo-1720589103335-43589b70bd20?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDV8fG1hbmFnZW1lbnQlMjBzb2Z0d2FyZXxlbnwwfHwwfHx8MA%3D%3D",
@@ -27,7 +36,7 @@ export function Projects() {
       category: "web"
     },
     {
-      title: "Value Education Cell BIT",
+      title: "Value Education Cell BITM - old",
       description: "A responsive website built for the Value Education Cell of BIT Mesra. Features modern design, smooth animations, and optimized performance.",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop&crop=top",
       tech: ["HTML5", "CSS3", "JavaScript", "Responsive Design"],
